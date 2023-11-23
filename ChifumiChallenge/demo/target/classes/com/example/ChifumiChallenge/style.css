@@ -1,0 +1,7 @@
+.box{
+    -fx-padding: 20px; /* Applique un padding de 10 pixels sur tous les côtés de la HBox */
+    -fx-spacing: 10px; /* Applique un padding de 10 pixels sur tous les côtés de la HBox */
+}
+.hbox {
+    -fx-spacing: 10px; /* Applique un espacement de 10 pixels entre les boutons de la HBox */
+}

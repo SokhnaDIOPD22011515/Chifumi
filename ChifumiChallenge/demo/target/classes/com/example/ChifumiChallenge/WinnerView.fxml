@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+
+
+<VBox fx:id="root"  xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.ChifumiChallenge.WinerController" prefHeight="500.0" prefWidth="400.0" alignment="CENTER" spacing="20.0"  >
+<children>
+    <ImageView fx:id="imageWinner" fitWidth="200" fitHeight="200" preserveRatio="true" pickOnBounds="true" />
+    <Label fx:id="winLabel" text="Félicitations, vous avez gagné la partie !"/>
+    <Button fx:id="relancerButton" text="Relancer une partie" onAction="#gameOnAction"/>
+</children>
+<padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+</padding>
+</VBox>
+
